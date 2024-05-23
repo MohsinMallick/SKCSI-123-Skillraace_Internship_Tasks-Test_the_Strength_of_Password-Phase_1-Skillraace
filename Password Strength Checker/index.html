@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Strength Checker</h1>
+
+        <input type="password" id="password" placeholder="Enter a password">
+        <div class="strength-meter">
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+            <div class="glow glow-3"></div>
+            <div class="glow glow-4"></div>
+        </div>
+        <div class="suggestions"></div>
+
+    </div>
+    <div class="swiper-container facts-swiper">
+        
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <p>In 2023, the most common password was still "password123", used by 2.5% of all accounts. (Source:
+                    BeyondTrust)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>A study found that 59% of people use the same password for multiple accounts. (Source: LastPass)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>It takes an average of 2 minutes and 24 seconds for a hacker to crack a password that is 6 characters
+                    long. (Source: Security.org)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>In 2024, there was a 71% increase in the volume of attacks using valid credentials compared to the
+                    previous year. (Source: IBM X-Force Threat Intelligence Index 2024)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>80% of hacking-related breaches are due to weak or stolen passwords. (Source: Verizon Data Breach
+                    Investigations Report)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>The longest password ever used was 18,118 characters long and was used to protect a Wi-Fi network.
+                    (Source: Guinness World Records)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>In 2023, the average person had 100 passwords to remember. (Source: LastPass)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>A brute force attack on a 12-character password with uppercase and lowercase letters, numbers, and
+                    symbols would take 2 centuries to crack. (Source: HowSecureIsMyPassword)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>In 2024, there was a 300% increase in phishing attacks that targeted login credentials. (Source:
+                    Proofpoint)</p>
+            </div>
+            <div class="swiper-slide">
+                <p>The use of multifactor authentication (MFA) can prevent 99.9% of account takeover attacks. (Source:
+                    Microsoft)</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
